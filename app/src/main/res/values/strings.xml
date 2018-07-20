@@ -1,6 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Screens</string>
 
+    <string name="button_activity_data_title">Data</string>
+    <string name="button_activity_add_data_begin_button_name">Add Data\nto Beginning</string>
+    <string name="button_activity_add_data_end_button_name">Add Data\nto End</string>
+    <string name="button_activity_remove_data_begin_button_name">Remove Data\nfrom Beginning</string>
+    <string name="button_activity_remove_data_end_button_name">Remove Data\nfrom End</string>
     <string name="button_activity_pager_button_name">ViewPager</string>
     <string name="button_activity_recycler_button_name">RecyclerView</string>
+    <string name="button_activity_no_more_items_toast">No more items.</string>
+
+    <string name="pager_fragment_uuid_title">UUID</string>
+    <string name="pager_fragment_position_title">Position</string>
+    <string name="pager_fragment_number_title">Number</string>
+
+    <string name="recycler_item_uuid_title">UUID</string>
+    <string name="recycler_item_position_title">Position</string>
+    <string name="recycler_item_number_title">Number</string>
+
 </resources>

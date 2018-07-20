@@ -5,12 +5,10 @@ import java.util.UUID;
 public class Item {
 
     private UUID mUuid;
-    private int mCount;
     private int mNumber;
 
-    public Item(UUID uuid, int count, int number) {
+    public Item(UUID uuid, int number) {
         mUuid = uuid;
-        mCount = count;
         mNumber = number;
     }
 
@@ -20,14 +18,6 @@ public class Item {
 
     public void setUuid(UUID uuid) {
         mUuid = uuid;
-    }
-
-    public int getCount() {
-        return mCount;
-    }
-
-    public void setCount(int count) {
-        mCount = count;
     }
 
     public int getNumber() {

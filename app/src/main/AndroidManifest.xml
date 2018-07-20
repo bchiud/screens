@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".PagerActivity"
+                  android:parentActivityName=".ButtonActivity">
+        </activity>
+        <activity android:name=".RecyclerActivity"
+                  android:parentActivityName=".ButtonActivity">
+        </activity>
     </application>
 
 </manifest>
